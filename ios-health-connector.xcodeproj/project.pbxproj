@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		9AE0B1042D36B1E800148907 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AE0B0EB2D36B1E600148907 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AE0B0F22D36B1E600148907;
+			remoteInfo = "ios-health-connector";
+		};
+		9AE0B10E2D36B1E800148907 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AE0B0EB2D36B1E600148907 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AE0B0F22D36B1E600148907;
+			remoteInfo = "ios-health-connector";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9AE0B0F32D36B1E600148907 /* ios-health-connector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-health-connector.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AE0B1032D36B1E800148907 /* ios-health-connectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-health-connectorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AE0B10D2D36B1E800148907 /* ios-health-connectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-health-connectorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		9AE0B0F52D36B1E600148907 /* ios-health-connector */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ios-health-connector";
+			sourceTree = "<group>";
+		};
+		9AE0B1062D36B1E800148907 /* ios-health-connectorTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ios-health-connectorTests";
+			sourceTree = "<group>";
+		};
+		9AE0B1102D36B1E800148907 /* ios-health-connectorUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ios-health-connectorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AE0B0F02D36B1E600148907 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AE0B1002D36B1E800148907 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AE0B10A2D36B1E800148907 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9AE0B0EA2D36B1E600148907 = {
+			isa = PBXGroup;
+			children = (
+				9AE0B0F52D36B1E600148907 /* ios-health-connector */,
+				9AE0B1062D36B1E800148907 /* ios-health-connectorTests */,
+				9AE0B1102D36B1E800148907 /* ios-health-connectorUITests */,
+				9AE0B0F42D36B1E600148907 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9AE0B0F42D36B1E600148907 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AE0B0F32D36B1E600148907 /* ios-health-connector.app */,
+				9AE0B1032D36B1E800148907 /* ios-health-connectorTests.xctest */,
+				9AE0B10D2D36B1E800148907 /* ios-health-connectorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AE0B0F22D36B1E600148907 /* ios-health-connector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AE0B1172D36B1E800148907 /* Build configuration list for PBXNativeTarget "ios-health-connector" */;
+			buildPhases = (
+				9AE0B0EF2D36B1E600148907 /* Sources */,
+				9AE0B0F02D36B1E600148907 /* Frameworks */,
+				9AE0B0F12D36B1E600148907 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				9AE0B0F52D36B1E600148907 /* ios-health-connector */,
+			);
+			name = "ios-health-connector";
+			packageProductDependencies = (
+			);
+			productName = "ios-health-connector";
+			productReference = 9AE0B0F32D36B1E600148907 /* ios-health-connector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9AE0B1022D36B1E800148907 /* ios-health-connectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AE0B11A2D36B1E800148907 /* Build configuration list for PBXNativeTarget "ios-health-connectorTests" */;
+			buildPhases = (
+				9AE0B0FF2D36B1E800148907 /* Sources */,
+				9AE0B1002D36B1E800148907 /* Frameworks */,
+				9AE0B1012D36B1E800148907 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AE0B1052D36B1E800148907 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9AE0B1062D36B1E800148907 /* ios-health-connectorTests */,
+			);
+			name = "ios-health-connectorTests";
+			packageProductDependencies = (
+			);
+			productName = "ios-health-connectorTests";
+			productReference = 9AE0B1032D36B1E800148907 /* ios-health-connectorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9AE0B10C2D36B1E800148907 /* ios-health-connectorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AE0B11D2D36B1E800148907 /* Build configuration list for PBXNativeTarget "ios-health-connectorUITests" */;
+			buildPhases = (
+				9AE0B1092D36B1E800148907 /* Sources */,
+				9AE0B10A2D36B1E800148907 /* Frameworks */,
+				9AE0B10B2D36B1E800148907 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AE0B10F2D36B1E800148907 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9AE0B1102D36B1E800148907 /* ios-health-connectorUITests */,
+			);
+			name = "ios-health-connectorUITests";
+			packageProductDependencies = (
+			);
+			productName = "ios-health-connectorUITests";
+			productReference = 9AE0B10D2D36B1E800148907 /* ios-health-connectorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AE0B0EB2D36B1E600148907 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					9AE0B0F22D36B1E600148907 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					9AE0B1022D36B1E800148907 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 9AE0B0F22D36B1E600148907;
+					};
+					9AE0B10C2D36B1E800148907 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 9AE0B0F22D36B1E600148907;
+					};
+				};
+			};
+			buildConfigurationList = 9AE0B0EE2D36B1E600148907 /* Build configuration list for PBXProject "ios-health-connector" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AE0B0EA2D36B1E600148907;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 9AE0B0F42D36B1E600148907 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AE0B0F22D36B1E600148907 /* ios-health-connector */,
+				9AE0B1022D36B1E800148907 /* ios-health-connectorTests */,
+				9AE0B10C2D36B1E800148907 /* ios-health-connectorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AE0B0F12D36B1E600148907 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AE0B1012D36B1E800148907 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AE0B10B2D36B1E800148907 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AE0B0EF2D36B1E600148907 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AE0B0FF2D36B1E800148907 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AE0B1092D36B1E800148907 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9AE0B1052D36B1E800148907 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AE0B0F22D36B1E600148907 /* ios-health-connector */;
+			targetProxy = 9AE0B1042D36B1E800148907 /* PBXContainerItemProxy */;
+		};
+		9AE0B10F2D36B1E800148907 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AE0B0F22D36B1E600148907 /* ios-health-connector */;
+			targetProxy = 9AE0B10E2D36B1E800148907 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9AE0B1152D36B1E800148907 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9AE0B1162D36B1E800148907 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AE0B1182D36B1E800148907 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ios-health-connector/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tobi.ios-health-connector";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9AE0B1192D36B1E800148907 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ios-health-connector/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tobi.ios-health-connector";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9AE0B11B2D36B1E800148907 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tobi.ios-health-connectorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-health-connector.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ios-health-connector";
+			};
+			name = Debug;
+		};
+		9AE0B11C2D36B1E800148907 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tobi.ios-health-connectorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-health-connector.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ios-health-connector";
+			};
+			name = Release;
+		};
+		9AE0B11E2D36B1E800148907 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tobi.ios-health-connectorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ios-health-connector";
+			};
+			name = Debug;
+		};
+		9AE0B11F2D36B1E800148907 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tobi.ios-health-connectorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ios-health-connector";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AE0B0EE2D36B1E600148907 /* Build configuration list for PBXProject "ios-health-connector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AE0B1152D36B1E800148907 /* Debug */,
+				9AE0B1162D36B1E800148907 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AE0B1172D36B1E800148907 /* Build configuration list for PBXNativeTarget "ios-health-connector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AE0B1182D36B1E800148907 /* Debug */,
+				9AE0B1192D36B1E800148907 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AE0B11A2D36B1E800148907 /* Build configuration list for PBXNativeTarget "ios-health-connectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AE0B11B2D36B1E800148907 /* Debug */,
+				9AE0B11C2D36B1E800148907 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AE0B11D2D36B1E800148907 /* Build configuration list for PBXNativeTarget "ios-health-connectorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AE0B11E2D36B1E800148907 /* Debug */,
+				9AE0B11F2D36B1E800148907 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AE0B0EB2D36B1E600148907 /* Project object */;
+}
